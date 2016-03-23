@@ -1,0 +1,37 @@
+{
+  "name": "cms_project",
+  "version": "1.0.0",
+  "description": "Simple CMS for website, for advanced programming class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kschmidt2/jomc583-project2.git"
+  },
+  "keywords": [
+    "cms"
+  ],
+  "author": "Kiersten Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kschmidt2/jomc583-project2/issues"
+  },
+  "homepage": "https://github.com/kschmidt2/jomc583-project2#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bytes": "^2.3.0",
+    "content-type": "^1.0.1",
+    "debug": "^2.2.0",
+    "depd": "^1.1.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "iconv-lite": "^0.4.13",
+    "inherits": "^2.0.1",
+    "mongodb": "^2.1.10",
+    "on-finished": "^2.3.0",
+    "raw-body": "^2.1.6",
+    "statuses": "^1.2.1"
+  }
+}

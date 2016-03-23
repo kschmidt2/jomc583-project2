@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Post</title>
+
+        <link rel="stylesheet" href="/css/bootstrap.css" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,400italic' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+
+      <div class="container">
+
+        <a href="/posts"><div id="logo"></div></a>
+
+        <h4>New Post</h4>
+
+        <form action="/posts" method="POST">
+          <div class="form-group">
+
+            <p>
+            <label>Title</label>
+            <input type="text" id="title" name="title" value="" class="form-control" placeholder="Title" />
+            </p>
+
+            <p>
+            <label>Author</label>
+            <input type="text" id="author" name="author" value="" class="form-control" placeholder="First and Last Name"/ >
+            </p>
+
+            <p>
+            <label>Category</label>
+            <input type="text" id="category" name="category" value="" class="form-control" placeholder="Category" />
+            </p>
+
+            <p>
+            <label>Content</label>
+            <textarea type="text" id="content" name="content" value="" class="form-control" placeholder="Content" rows="10"/></textarea>
+            </p>
+
+            <p>
+            <label>Thumbnail Image</label>
+            <input type="url" id="image" name="image" value="" class="form-control" placeholder="Image URL only" />
+            </p>
+
+            <p>
+            <label>Date</label>
+            <input type="date" id="date" name="date" value="" class="form-control date_picker" />
+            </p>
+
+            <button class="btn"><div class="button update">Create</div></button>
+
+          </div>
+
+        </form>
+      </div>
+
+    </body>
+</html>
