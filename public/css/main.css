@@ -92,7 +92,7 @@ h4 {
 }
 
 .image {
-  width: 400px;
+  max-width: 400px;
   margin-bottom: 1em;
 }
 
@@ -169,4 +169,26 @@ h4 {
 
 .date_picker {
   width: 180px;
+}
+
+/*media queries*/
+@media screen and (max-width: 667px) {
+    .container {
+      width: 90%;
+    }
+}
+
+@media (min-width: 737px) and (max-width: 1024px) {
+    .container {
+      width: 90%;
+    }
+    .modal-sm {
+      width: 700px;
+      font-size: 4em;
+      margin-top: 50px;
+    }
+    .delete_box, .go_back {
+      width: 500px;
+      border-radius: 10px;
+    }
 }
